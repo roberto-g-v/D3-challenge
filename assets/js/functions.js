@@ -1,3 +1,8 @@
+/***********************
+BONUS: 
+Get more Data and make scatter more Dynamic
+************************/
+
 // function used for updating x-scale const upon click on axis label
 function xScale(csvData, chosenXAxis) {
     // create scales
@@ -90,6 +95,10 @@ function xScale(csvData, chosenXAxis) {
     currency: 'USD',
   });
   
+/***********************
+Incorporate d3-tip
+************************/
+
   // function used for updating circles group with new tooltip
   function updateToolTip(circlesGroup, chosenXAxis, chosenYAxis) {
   
